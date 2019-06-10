@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class AdmProjetosController {
   
-  @RequestMapping("/CadastrarMateriaisUtilizados")
+  @RequestMapping("/AdmistrarProjetos")
   public String formMateriaisUtilizados() {
     return "AdmProjetos/AdmistrarProjetos";
   }

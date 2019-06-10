@@ -8,6 +8,6 @@ public class LocalDeEstocagemController {
   
   @RequestMapping("/cadastrarLocalDeEstocagem")
   public String formLocalDeEstocagem() {
-    return "localDeEstocagem/localDeEstocagem";
+    return "localDeEstocagem/cadastrarLocalDeEstocagem";
   }
 }

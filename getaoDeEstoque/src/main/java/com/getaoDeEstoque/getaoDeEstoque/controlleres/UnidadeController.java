@@ -8,6 +8,6 @@ public class UnidadeController {
   
   @RequestMapping("/cadastrarUnidade")
   public String formUnidade() {
-    return "fornecedor/cadastroUnidade";
+    return "unidade/cadastrarUnidade";
   }
 }
