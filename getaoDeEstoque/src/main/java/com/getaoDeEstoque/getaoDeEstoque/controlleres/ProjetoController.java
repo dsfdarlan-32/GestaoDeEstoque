@@ -8,7 +8,7 @@ public class ProjetoController {
   
   @RequestMapping("/CadastrarProjeto")
   public String formCadastrarProjeto() {
-    return "projeto/projeto";
+    return "projeto/CadastrarProjeto";
   }
     
 }
