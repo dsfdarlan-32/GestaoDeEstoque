@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ProjetoController {
   
-  @RequestMapping("/CadastrarProjeto")
+  @RequestMapping("/cadastrarProjeto")
   public String formCadastrarProjeto() {
-    return "projeto/CadastrarProjeto";
+    return "projeto/cadastrarProjeto";
   }
     
 }
