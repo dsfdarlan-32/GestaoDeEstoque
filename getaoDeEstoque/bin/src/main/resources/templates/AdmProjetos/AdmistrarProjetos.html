@@ -1,0 +1,89 @@
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+	<title>Adm Projeto</title>
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="">Gestão de Estoque</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="Home.html">Home</a></li>		
+	        <li><a href="cadastrarFornecedor.html">Fornecedor</a></li>
+	        <li><a href="cadastrarMaterial.html">Material</a></li>
+	        <li><a href="cadastroUnidade.html">Unidade</a></li>
+	        <li><a href="localDeEstocagem.html">Local de estocagem</a></li>
+	        <li><a href="cadastrarProjeto.html">Projeto</a></li>
+	        <li class="active"><a href="AdmistrarProjetos.html">Administrar Projeto</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<form class="form-horizontal" method="post">
+		<fieldset>
+			<div class="panel panel-primary">
+				<div class="panel-heading">Cadastrar Materiais Utilizados</div>
+				<div class="panel-body">
+					<div class="form-group">
+						<div id="newpost">
+							<div class="form-group">
+								<div class="col-md-2 control-label">
+									<h3>Materiais Utilizados</h3>
+								</div>
+							</div>
+							<!-- Text input-->
+							<div class="form-group">
+								<label class="col-md-2 control-label" for="vinculo">Projeto:</label>
+								<div class="col-md-2">
+									<input id="projeto" name="projeto" placeholder="Projeto"
+										class="form-control input-md" type="text">
+								</div>
+								<label class="col-md-1 control-label" for="Estado Civil">Material:</label>
+								<div class="col-md-2">
+									<input id="material" name="material" placeholder="Material"
+										class="form-control input-md" type="number">
+								</div>
+							</div>							
+							<div class="form-group">
+								<label class="col-md-2 control-label" for="Estado Civil">Quantidade:</label>
+								<div class="col-md-2">
+									<input id="quantidade" name="quantidade" placeholder="Quantidade"
+										class="form-control input-md" type="number">
+								</div>
+								<label class="col-md-1 control-label" for="Estado Civil">Etapa da obra:</label>
+								<div class="col-md-2">
+									<input id="projeto" name="projeto" placeholder="Status"
+										class="form-control input-md" type="text">
+								</div>
+							</div>
+								<!-- Button (Double) -->
+							<div class="form-group">
+								<label class="col-md-2 control-label" for="Cadastrar"></label>
+								<div class="col-md-8">
+									<button id="Cadastrar" name="Cadastrar" class="btn btn-success"
+										type="Submit">Cadastrar</button>
+									<button id="Cancelar" name="Cancelar" class="btn btn-primary"
+										type="Reset">Limpar</button>
+									<button id="Cancelar" name="Cancelar" class="btn btn-danger"
+										type="Reset">Cancelar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
